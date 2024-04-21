@@ -1,0 +1,2 @@
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\bin\Debug\net472\MagicTaxi.dll
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\bin\Debug\net472\MagicTaxi.pdb

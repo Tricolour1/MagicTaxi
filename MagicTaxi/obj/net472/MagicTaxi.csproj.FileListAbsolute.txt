@@ -1,0 +1,9 @@
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\bin\net472\MagicTaxi.dll
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\bin\net472\MagicTaxi.pdb
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.dll
+C:\Users\admin\RiderProjects\MagicTaxi\MagicTaxi\obj\net472\MagicTaxi.pdb
