@@ -17,18 +17,33 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/feff44428bf3435d97abac1bad09fa9d8e6800/35/912ea7af/02001D4E.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d981c08d8fd34837bb61ae056f007f6070a00/7a/7f97565c/GizmoLine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d981c08d8fd34837bb61ae056f007f6070a00/f8/17a02d93/AlignedStringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/14/b1cf2e33/FreeWorkplaces.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/1e/5a57e77b/Workplaces.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/23/8847bce6/TrainNavigationSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/24/68c72887/CitizenFindJobSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/39/35c4b00c/PowerPlantData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/4d/d844563d/Taxi.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/4e/d04c29bc/EditorBottomBarUISystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/5c/3eee24bf/ToolSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/5d/26606ec2/TransportTrainAISystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/5d/fb29a81b/ToolMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/5e/a456c1a5/VehicleType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/60/ff9a1c43/Vehicle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/63/27271311/OutsideConnectionSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/68/2bf84030/RouteToolSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/6e/6d234d1b/VehicleData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/6e/9448d233/TrackLane.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/7d/569ed947/GarbageProducerFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/90/75a3ce73/PowerLineData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/98/4a9873cf/TaxiFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/b9/cd838d3b/NodeAlignSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/bc/578b0064/PublicTransportFlags.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/c8/d7d14c0f/PublicTransportVehicleData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/d5/f441a842/TaxiData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/e7/2b5b34c2/TrackComposition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/e8/c892cff6/SubwayTrack.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/feff44428bf3435d97abac1bad09fa9d8e6800/f2/cfa76fd1/GarbageProducer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -97,6 +112,10 @@
       <workItem from="1713611916391" duration="1186000" />
       <workItem from="1713613268252" duration="6423000" />
       <workItem from="1713668211560" duration="1245000" />
+      <workItem from="1713671571204" duration="13342000" />
+      <workItem from="1713754241116" duration="20465000" />
+      <workItem from="1713783024756" duration="153000" />
+      <workItem from="1713844340654" duration="2078000" />
     </task>
     <servers />
   </component>
