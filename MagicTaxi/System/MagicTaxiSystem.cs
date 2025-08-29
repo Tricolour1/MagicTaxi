@@ -1,60 +1,60 @@
-using Colossal;
 using Game;
 using Game.Common;
-using Game.Prefabs;
-using Game.Tools;
 using Game.Vehicles;
 using Unity.Collections;
 using Unity.Entities;
-using Taxi = Game.Vehicles.Taxi;
 
 namespace MagicTaxi;
-//[UpdateAfter(typeof())]
+
 public partial class MagicTaxiSystem : GameSystemBase
 {
-    private EntityQuery _TaxiRemoverQuery;
+    private EntityQuery m_TaxiQuery;
 
     protected override void OnCreate()
     {
         base.OnCreate();
 
-        _TaxiRemoverQuery = GetEntityQuery(new EntityQueryDesc()
+        // This is a simpler way to create the same query.
+        // It looks for all entities that are a Vehicle and a Taxi,
+        // but are not marked as Deleted or Temp.
+        m_TaxiQuery = GetEntityQuery(new EntityQueryDesc()
         {
-            All =
-            [
-                ComponentType.ReadOnly<Vehicle>(),
-                ComponentType.ReadOnly<Taxi>(),
-            ],
-            None =
-            [
-                ComponentType.ReadOnly<Deleted>(),
-                ComponentType.ReadOnly<Temp>(),
-            ]
+            All = [ComponentType.ReadOnly<Vehicle>(), ComponentType.ReadOnly<Taxi>()],
+            None = [ComponentType.ReadOnly<Deleted>(), ComponentType.ReadOnly<Temp>()]
         });
+
+        Mod.log.Info("MagicTaxiSystem is active.");
     }
 
     protected override void OnUpdate()
     {
-       /*if (!Mod.activeSettings.TaxiRemoverEnabled)
-       {
-           return;
-       }*/
+        // This is the most important fix.
+        // It checks the setting from the options menu. If the box is unchecked, it stops here.
+        if (Mod.Settings == null || !Mod.Settings.TaxiRemoverEnabled)
+        {
+            return;
+        }
 
-       var taxiRemover = _TaxiRemoverQuery.ToEntityArray((Allocator.Temp));
-       foreach (var entity in taxiRemover)
-       {
-           var taxiflagData = EntityManager.GetComponentData<Taxi>(entity);
-           if ((taxiflagData.m_State & TaxiFlags.FromOutside) != 0)
-           {
-               try
-               {
-                   EntityManager.AddComponent<Deleted>(entity);
-               }
-               catch
-               {
-                   //do nothing
-               }
-           }
-       }
+        // Create a temporary list of taxis to delete.
+        using var entitiesToDelete = new NativeList<Entity>(Allocator.Temp);
+        
+        // Loop through all entities found by our query.
+        foreach (var entity in m_TaxiQuery.ToEntityArray(Allocator.Temp))
+        {
+            // Get the Taxi component data for the current entity.
+            var taxiData = EntityManager.GetComponentData<Taxi>(entity);
+
+            // This logic is from the original mod: it only removes taxis coming from outside the city.
+            if ((taxiData.m_State & TaxiFlags.FromOutside) != 0)
+            {
+                entitiesToDelete.Add(entity);
+            }
+        }
+
+        // If we found any taxis to delete, destroy them all at once.
+        if (entitiesToDelete.Length > 0)
+        {
+            EntityManager.DestroyEntity(entitiesToDelete);
+        }
     }
 }
